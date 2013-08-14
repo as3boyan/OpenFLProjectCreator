@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="OpenFLProjectCreator" package="com.as3boyan.OpenFLProjectCreator" version="1.0.0" company="AS3Boyan" />
+	
+	<!-- output -->
+	<app main="Main" file="OpenFLProjectCreator" path="bin" />
+	<window require-shaders="true" />
+	
+	<window background="#00b6b2" fps="60" />
+	<window width="1280" height="720" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="box2d" />
+	
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<assets path="assets" include="*" />
+	<assets path="assets/images" rename="images" />
+	<assets path="assets/fonts" rename="fonts" />
+	
+	<assets path="Assets/sounds" rename="sounds" if="web">
+		<sound path="3.mp3" id="sound3" />
+		<sound path="4.mp3" id="sound4" />
+		<sound path="5.mp3" id="sound5" />
+		<music path="theme.mp3" id="soundTheme" />
+	</assets>
+	
+	<assets path="Assets/sounds" rename="sounds" unless="web">
+		<sound path="3.wav" id="sound3" />
+		<sound path="4.wav" id="sound4" />
+		<sound path="5.wav" id="sound5" />
+		<music path="theme.mp3" id="soundTheme" />
+	</assets>
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>
