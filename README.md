@@ -10,3 +10,5 @@ You can create sample projects and they should open in FlashDevelop automaticall
 You can watch it in action in this video:
 
 http://youtu.be/bwgIBWLNOWM
+
+Maybe this is gonna be part of future Haxe/OpenFL IDE.
