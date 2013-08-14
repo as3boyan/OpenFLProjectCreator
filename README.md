@@ -1,4 +1,4 @@
-OpenFLProjectCreator
+OpenFL Project Creator
 ====================
 
 Simple GUI for OpenFL samples
