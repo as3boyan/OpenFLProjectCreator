@@ -11,4 +11,6 @@ You can watch it in action in this video:
 
 http://youtu.be/bwgIBWLNOWM
 
+Contributions and suggestions are welcome!
+
 Maybe this is gonna be part of future Haxe/OpenFL IDE.
