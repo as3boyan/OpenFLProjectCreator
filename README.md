@@ -13,4 +13,8 @@ http://youtu.be/bwgIBWLNOWM
 
 Contributions and suggestions are welcome!
 
+If you need to contact me, you can find me on twitter:
+
+https://twitter.com/As3Boyan
+
 Maybe this is gonna be part of future Haxe/OpenFL IDE.
